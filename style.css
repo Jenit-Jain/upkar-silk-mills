@@ -375,7 +375,7 @@ footer {
     transform: translate(-50%, -50%);
     width: 60%; /* Adjust size of logo */
     height: 60%;
-    background-image: url('UPKAR-LOGO'); /* Your logo file name */
+    background-image: url('UPKAR-LOGO.png'); /* Your logo file name */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
