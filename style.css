@@ -200,7 +200,7 @@ nav a:hover {
 
 .about-image {
     width: 100%;
-    height: 400px;
+    height: auto;
     object-fit: cover; /* Ensures the image fills the space without squishing */
     object-position: center; /* Keeps the fabric centered in the frame */
     border-radius: 4px;
