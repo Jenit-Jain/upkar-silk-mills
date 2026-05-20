@@ -487,3 +487,51 @@ footer {
     margin-bottom: 4px;
     color: #FFFFFF;
 }
+
+/* ... (All original styles remain here) */
+
+/* --- Hero Section Modification --- */
+.hero {
+    min-height: 50vh; /* Reduced height to make room for image */
+    display: flex;
+    align-items: center;
+    background: radial-gradient(circle at right, #F3ECE0 0%, var(--bg-primary) 70%);
+}
+
+.hero-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .hero { min-height: auto; }
+}
+
+/* --- Product Feature Section (New Styles) --- */
+.product-feature {
+    background-color: var(--bg-primary);
+    padding-bottom: 80px; /* Space after image */
+}
+
+.product-feature .container {
+    padding-top: 0; /* Align with hero text space */
+    padding-bottom: 0;
+}
+
+.feature-image-wrapper {
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Prevent edge stretch */
+}
+
+.feature-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 16px 40px rgba(0,0,0,0.12); /* Soft shadow for focus */
+    border-radius: 4px; /* Matches shade cards */
+}
+
+@media (max-width: 768px) {
+    .product-feature { padding-bottom: 40px; }
+}
